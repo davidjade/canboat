@@ -8,9 +8,7 @@ User=root
 Group=root
 PrivateDevices=no
 SyslogLevel=err
-ExecStart=/usr/bin/n2kd_monitor
-StandardOutput=syslog
-StandardError=syslog
+ExecStart=/usr/local/bin/n2kd_monitor
 WorkingDirectory=/tmp
 
 [Install]
